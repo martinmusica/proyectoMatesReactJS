@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    background-size: cover;
+    background-color: olive;
+}
+.list{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    list-style-type: none;
+}
+.list li{
+    margin: 50px;
+    font-family: Raleway;
+    font-size: 40pt;
+    font-weight: bold;
+    color: white;
+}
+.hiddenP{
+    color: whitesmoke;
+}
+p{
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 25pt;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5pt;
+}
