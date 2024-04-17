@@ -1,14 +1,23 @@
-import './App.css'
-import NavBar from './components/NavBar/NavBar'
+import React from 'react';
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <h1>Hasta acá llegamos!</h1>
-      <p className='hiddenP'>aguante boquita!</p>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer saludo="Nuestro Catálogo" />} />
+          <Route path="/category/:idCategory" element={<ItemListContainer saludo="Nuestro Catálogo" />} />
+          <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
+        </Routes>    
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

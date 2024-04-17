@@ -1,31 +1,16 @@
 .navbar{
     display: flex;
-    background-size: cover;
-    background-color: olive;
-}
-.list{
-    display: flex;
-    margin: auto;
     align-items: center;
-    list-style-type: none;
+    justify-content: center;
+    background-size: cover;
+    background-image: url('../../../public/img/pxfuel.jpg');
 }
-.list li{
-    margin: 50px;
+.categorie-navbar{
+    text-decoration: none;
     font-family: Raleway;
     font-size: 40pt;
     font-weight: bold;
     color: white;
-}
-.hiddenP{
-    color: whitesmoke;
-}
-p{
-    display: flex;
-    align-items: center;
-    font-family: Raleway;
-    font-size: 25pt;
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-    text-underline-offset: 5pt;
+    margin: 30px;
+    
 }
