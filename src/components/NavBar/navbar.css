@@ -1,16 +1,40 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
     background-size: cover;
     background-image: url('../../../public/img/pxfuel.jpg');
-}
-.categorie-navbar{
+    padding: 10px 20px; /* Añade un poco de relleno para separar los elementos del borde */
+  }
+  
+  .categories-navbar {
+    flex-grow: 1; /* Hace que los enlaces de categorías ocupen todo el espacio disponible */
+  }
+  
+  .categorie-navbar {
     text-decoration: none;
     font-family: Raleway;
     font-size: 40pt;
     font-weight: bold;
     color: white;
-    margin: 30px;
-    
-}
+    margin: 0 20px; /* Reduce el margen para los enlaces de categorías */
+  }
+  
+  .cartwidget {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white; /* Agregamos un borde blanco */
+  }
+  
+  .cartwidget:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+  }

@@ -1,0 +1,40 @@
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-add {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  background-color: olive;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: darkolivegreen;
+}
+
+.controls-count {
+  display: flex;
+  align-items: center;
+}
+
+.button-count {
+  background-color: olive;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.button-count:hover {
+  background-color: darkolivegreen;
+}

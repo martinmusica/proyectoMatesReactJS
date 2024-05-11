@@ -1,0 +1,57 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-generated {
+    text-align: center;
+  }
+  
+  .button-order {
+    background-color: olive;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .button-order:hover {
+    background-color: darkolivegreen;
+  }
+  
+  .formulario-checkout {
+    margin-top: 20px;
+  }
+  
+  .form-input {
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid olive;
+    border-radius: 5px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: darkolivegreen;
+  }
+  
+  .submit-button {
+    background-color: olive;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: darkolivegreen;
+  }

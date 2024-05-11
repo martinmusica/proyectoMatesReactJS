@@ -1,4 +1,4 @@
-import Carrito from "./Carrito/Carrito"
+import CartWidget from "./CartWidget"
 import "./navbar.css"
 import Logo from "./Logo/Logo"
 import { Link } from "react-router-dom";
@@ -18,7 +18,7 @@ const NavBar = () => {
           BOMBILLAS
         </Link>
       </ul>
-      <Carrito/>
+      <CartWidget/>
 
     </nav>
   )

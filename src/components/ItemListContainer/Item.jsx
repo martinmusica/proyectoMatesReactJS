@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Count from '../ItemCount/Count'; // Importa el componente Count
+import Count from '../ItemCount/ItemCount'; // Importa el componente Count
 
 const Item = ({ product }) => {
   return (

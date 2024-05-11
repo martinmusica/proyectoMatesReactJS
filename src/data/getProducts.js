@@ -36,7 +36,7 @@ const products = [
       fullDescription: "Disfruta de tu mate con un toque de elegancia con este mate de cerámica. Su diseño artesanal no solo le da un aspecto único, sino que también mantiene tu yerba mate a la temperatura perfecta para disfrutar de su sabor auténtico. Con este mate, cada sorbo se convierte en una experiencia especial, fusionando tradición y estilo en cada momento compartido.",
       stock: 10,
       category: "mate",
-      image: "https://arjaque.com/wp-content/uploads/2020/08/CAMIONERO-DE-CERAMICA1-scaled.jpg",
+      image: "https://arjaque.com/wp-content/uploads/2024/04/PhotoRoom_20231127_131049-300x300.jpg",
       price: 21500
     },
     {
