@@ -1,14 +1,14 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Alinea los elementos a los extremos */
+    justify-content: space-between; 
     background-size: cover;
     background-image: url('../../../public/img/pxfuel.jpg');
-    padding: 10px 20px; /* Añade un poco de relleno para separar los elementos del borde */
+    padding: 10px 20px; 
   }
   
   .categories-navbar {
-    flex-grow: 1; /* Hace que los enlaces de categorías ocupen todo el espacio disponible */
+    flex-grow: 1;
   }
   
   .categorie-navbar {
@@ -17,7 +17,7 @@
     font-size: 40pt;
     font-weight: bold;
     color: white;
-    margin: 0 20px; /* Reduce el margen para los enlaces de categorías */
+    margin: 0 20px; 
   }
   
   .cartwidget {
@@ -31,7 +31,7 @@
     font-weight: bold;
     text-decoration: none;
     color: white;
-    border: 2px solid white; /* Agregamos un borde blanco */
+    border: 2px solid white; 
   }
   
   .cartwidget:hover {
